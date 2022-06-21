@@ -67,6 +67,10 @@ li {
   /* border: solid 1px; */
 }
 
+.side {
+  position: relative;
+}
+
 .photo {
   height: 400px;
   background-image: url("../images/my_photo.jpg");
@@ -111,6 +115,7 @@ li {
 
 .about-me {
   padding: 60px 30px 20px 30px;
+  position: relative;
 }
 
 .skills {
@@ -161,4 +166,32 @@ li {
   text-decoration: underline;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding-bottom: 15px;
+  }
+
+  .about-me {
+    padding-top: 15px;
+  }
+
+  .contact {
+    margin-bottom: 370px;
+  }
+
+  .name {
+    position: absolute;
+    top: -870px;
+    right: 30px;
+    left: 30px;
+  }
+
+  .bio {
+    position: absolute;
+    top: -680px;
+    right: 30px;
+    left: 30px;
+  }
 }

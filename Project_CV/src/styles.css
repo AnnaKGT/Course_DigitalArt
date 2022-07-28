@@ -12,7 +12,7 @@ h3 {
 
 h1 {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 64px;
 }
 
 h3 {
@@ -72,7 +72,7 @@ li {
 }
 
 .photo {
-  height: 400px;
+  height: 350px;
   background-image: url("../images/my_photo.jpg");
   background-size: cover;
   background-position: center top;
@@ -140,13 +140,15 @@ li {
 }
 
 .duty {
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 3px;
+  line-height: 1.5;
   list-style: inside;
+  opacity: 0.8;
 }
 
 .interests {
-  padding: 15px 0 40px 0;
+  padding: 25px 0 40px 0;
 }
 
 .interest {
@@ -183,14 +185,14 @@ li {
 
   .name {
     position: absolute;
-    top: -870px;
+    top: -950px;
     right: 30px;
     left: 30px;
   }
 
   .bio {
     position: absolute;
-    top: -680px;
+    top: -750px;
     right: 30px;
     left: 30px;
   }
